@@ -21,7 +21,7 @@ var users = require('./routes/users');
 var app = express();
 
 var mongoose = require('mongoose');
-mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://6148inclass:eurvXuWZT994zi2KdCvkEEQVzCoGdCCMOuFnL8n3wysASk2ayMTyuUqHhMZgiDMivmokTXFYUfRYf8hNYCAjzg==@6148inclass.documents.azure.com:10250/db?ssl=true');
+mongoose.connect(process.env.MONGOLAB_URI || 'mongodb://lol:lol@ds117889.mlab.com:17889/heroku_msv3l3st');
 /*
    Example localhost: 'mongodb://localhost:27017/test';
    Example Azure URI: mongodb://aaronsmongodbrw:xSJEozk4Tmg74Q1iyXMN0sEgr0PfegnIrDz5xq8N5UvmwlsFSSqGR0QMAx1nw5hdiENdcSQbHHK7t4ZQY0wf6g==@aaronsmongodbrw.documents.azure.com:10250/<db_name>?ssl=true
